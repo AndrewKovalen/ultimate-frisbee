@@ -1,0 +1,161 @@
+
+body {
+    padding: 1%;
+    margin: 1%;
+}
+
+header {
+    background-color: #517899;
+    background-image: url("../img/flywheel.jpg");
+    padding: 2.5%;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 7%;
+    padding: 13px 43px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    color: #5c99ca;
+}
+
+nav a:active {
+    color: #156cb3;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+h2 {
+    color: rgb(16, 110, 173);
+}
+
+section {
+    display: inline-block;
+}
+
+.left {
+    display: inline-block;
+    float: left;
+    width: 27%;
+    background-color: #74a3da;
+
+}
+
+.right {
+    display: inline-block;
+    float: left;
+    width: 65%;
+    margin-left: 4%;
+}
+
+.left img {
+    display: block;
+    width: 200px;
+    height: auto;
+    border: solid 3px #000000;
+    margin: 13% auto;
+    float: none;
+}
+
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(89, 166, 202);
+    text-decoration: none;
+
+}
+
+a:active {
+    color: rgb(8, 102, 146);
+}
+
+/* Final Project - Styling a Table */
+
+/* Setting up a table  */
+table {
+    font-family: 'Roboto', 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+    width: 85%;
+    margin: 20px 63px;
+}
+
+
+/* Giving a gradient and required borders in the heading across multiple browsers  */
+
+th {
+    background-image: -webkit-linear-gradient(top, #afd3f0, #256aa1);
+    background-image: -moz-linear-gradient(top, #afd3f0, #256aa1);
+    background-image: -o-linear-gradient(top, #afd3f0, #256aa1);
+    border: 2px solid #104f83;
+    border-bottom: 5px solid #004074;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+
+/* Giving a background-color to table cells with opacity and font-color to the text */
+
+td {
+    background-color: rgba(168, 223, 255, 0.8);
+    color: rgba(66, 66, 66, 0.747);
+    /* Additional required properties for <td> */
+    padding: 2px;
+    text-shadow: 1px 1px 2px rgb(112, 112, 112);
+}
+
+/* Aligning the whole 'TEAM NAME' column to the left (with extra padding) */
+
+th:first-child, td:first-child {
+    text-align: left;
+    padding-left: 8px;
+}
+
+/* Centering the other remaining columns  */
+
+th:last-child, td:last-child,
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+
+/* Hovering over the table elements with darker opacity */
+
+td:hover {
+    color: rgba(61, 61, 61, 1);
+}
+
+/* 
+    These two rules are shaping only the left side of the first column and right side of the last column.
+    I think it looks more appealing :)  
+*/
+
+.leftRadius {
+    border-radius: 5px 0 0 0;
+}
+
+.rightRadius {
+    border-radius: 0 5px 0 0;
+}
